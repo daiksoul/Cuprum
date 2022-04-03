@@ -1,0 +1,15 @@
+{
+	"parent": "cuprum:recipes/root",
+	"rewards": {
+	  "function": "cuprum:recipe/copper_pickaxe",
+	  "loot": ["cuprum:item/copper_pickaxe"]
+	},
+	"criteria": {
+	  "has_the_recipe": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		  "recipe": "cuprum:copper_pickaxe"
+		}
+	  }
+	}
+  }

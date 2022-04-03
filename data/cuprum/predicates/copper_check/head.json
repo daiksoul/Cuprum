@@ -1,0 +1,51 @@
+[
+	{
+	  "condition": "minecraft:alternative",
+	  "terms": [
+		{
+		  "condition": "minecraft:entity_properties",
+		  "entity": "this",
+		  "predicate": {
+			"equipment": {
+			  "head": {
+				"nbt": "{Cuprum:{copper:1b,waxed:0b}}"
+			  }
+			}
+		  }
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "nbt": "{Cuprum:{copper:2b,waxed:0b}}"
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "nbt": "{Cuprum:{copper:3b,waxed:0b}}"
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "nbt": "{Cuprum:{copper:4b,waxed:0b}}"
+				}
+			  }
+			}
+		  }
+	  ]
+	}
+  ]

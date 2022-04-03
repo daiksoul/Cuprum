@@ -1,0 +1,15 @@
+{
+	"parent": "cuprum:recipes/root",
+	"rewards": {
+	  "function": "cuprum:recipe/copper_shovel",
+	  "loot": ["cuprum:item/copper_shovel"]
+	},
+	"criteria": {
+	  "has_the_recipe": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		  "recipe": "cuprum:copper_shovel"
+		}
+	  }
+	}
+  }

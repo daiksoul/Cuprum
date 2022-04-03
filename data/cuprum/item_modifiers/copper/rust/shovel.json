@@ -1,0 +1,86 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "minecraft:generic.attack_speed",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_SHO_2_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"operation": "addition",
+				"slot": "mainhand"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+				"nbt": "{Cupurum:{copper:2b,waxed:0b}}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "minecraft:generic.attack_speed",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_SHO_3_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"operation": "addition",
+				"slot": "mainhand"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+				"nbt": "{Cupurum:{copper:3b,waxed:0b}}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "minecraft:generic.attack_speed",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_SHO_4_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"operation": "addition",
+				"slot": "mainhand"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+				"nbt": "{Cupurum:{copper:4b,waxed:0b}}"
+				}
+			}
+		]
+	}
+]

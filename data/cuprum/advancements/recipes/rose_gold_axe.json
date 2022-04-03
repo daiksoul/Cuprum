@@ -1,0 +1,14 @@
+{
+	"parent": "cuprum:recipes/root",
+	"rewards": {
+	  "function": "cuprum:recipe/rose_gold_axe"
+	},
+	"criteria": {
+	  "has_the_recipe": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		  "recipe": "cuprum:rose_gold_axe"
+		}
+	  }
+	}
+  }

@@ -1,0 +1,14 @@
+[
+	{
+	  "function": "minecraft:set_lore",
+	  "lore": [
+		{
+		  "text": " "
+		}
+	  ]
+	},
+	{
+	  "function": "minecraft:set_nbt",
+	  "tag": "{CustomModelData:29010,cuprum:{rosegold:1b},cdur:{current_d:172,max_d:172,repair_item:{id:\"minecraft:copper_ingot\"}}}"
+	}
+]

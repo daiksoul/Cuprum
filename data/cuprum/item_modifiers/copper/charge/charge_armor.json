@@ -1,0 +1,94 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:12},CustomModelData:29004,Cupurum:{copper:1b,waxed:0b}}"
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": 1,
+				"operation": "multiply_total",
+				"slot": "feet"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+					"items": [
+						"minecraft:iron_boots"
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": 1,
+				"operation": "multiply_total",
+				"slot": "legs"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+					"items": [
+						"minecraft:iron_leggings"
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": 1,
+				"operation": "multiply_total",
+				"slot": "chest"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+					"items": [
+						"minecraft:iron_chestplate"
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": 1,
+				"operation": "multiply_total",
+				"slot": "head"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+					"items": [
+						"minecraft:iron_helmet"
+					]
+				}
+			}
+		]
+	}
+]
