@@ -1,0 +1,35 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+	  {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+		  "equipment": {
+			"offhand": {
+			  "nbt": "{Item:{tag:{cuprum:{copper:1b, waxed:0b}}}}"
+			}
+		  }
+		}
+	  },
+	  {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+		  "equipment": {
+			"mainhand": {
+			  "nbt": "{Item:{tag:{cuprum:{copper:1b, waxed:0b}}}}"
+			}
+		  }
+		}
+	  },
+	  {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+		  "type": "minecraft:item",
+		  "nbt": "{Item:{tag:{cuprum:{copper:1b, waxed:0b}}}}"
+		}
+	  }
+	]
+}  

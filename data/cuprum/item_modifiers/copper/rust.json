@@ -1,36 +1,36 @@
 [
 	{
 	  "function": "minecraft:set_nbt",
-	  "tag": "{Cuprum:{copper:2b,waxed:0b},CustomModelData:29001}",
+	  "tag": "{cuprum:{copper:2b,waxed:0b},CustomModelData:29001}",
 	  "conditions": [
 		{
 		  "condition": "minecraft:match_tool",
 		  "predicate": {
-			"nbt": "{Cuprum:{copper:1b,waxed:0b},CustomModelData:29000}"
+			"nbt": "{cuprum:{copper:1b,waxed:0b},CustomModelData:29000}"
 		  }
 		}
 	  ]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cuprum:{copper:3b,waxed:0b},CustomModelData:29002}",
+		"tag": "{cuprum:{copper:3b,waxed:0b},CustomModelData:29002}",
 		"conditions": [
 		  {
 			"condition": "minecraft:match_tool",
 			"predicate": {
-			  "nbt": "{Cuprum:{copper:2b,waxed:0b},CustomModelData:29001}"
+			  "nbt": "{cuprum:{copper:2b,waxed:0b},CustomModelData:29001}"
 			}
 		  }
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Cuprum:{copper:4b,waxed:0b},CustomModelData:29003}",
+		"tag": "{cuprum:{copper:4b,waxed:0b},CustomModelData:29003}",
 		"conditions": [
 		  {
 			"condition": "minecraft:match_tool",
 			"predicate": {
-			  "nbt": "{Cuprum:{copper:3b,waxed:0b},CustomModelData:29002}"
+			  "nbt": "{cuprum:{copper:3b,waxed:0b},CustomModelData:29002}"
 			}
 		  }
 		]

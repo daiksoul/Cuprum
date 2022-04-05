@@ -24,12 +24,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-					"items": [
-						"minecraft:iron_axe"
-					]
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#TOOLTYPE"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 0
 			}
 		]
 	},
@@ -54,12 +59,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-					"items": [
-						"minecraft:iron_hoe"
-					]
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#TOOLTYPE"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 1
 			}
 		]
 	},
@@ -84,12 +94,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-					"items": [
-						"minecraft:iron_pickaxe"
-					]
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#TOOLTYPE"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 2
 			}
 		]
 	},
@@ -114,12 +129,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-					"items": [
-						"minecraft:iron_shovel"
-					]
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#TOOLTYPE"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 3
 			}
 		]
 	},
@@ -144,12 +164,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-					"items": [
-						"minecraft:iron_sword"
-					]
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#TOOLTYPE"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 4
 			}
 		]
 	}

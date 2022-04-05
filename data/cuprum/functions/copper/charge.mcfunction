@@ -10,8 +10,12 @@ execute if score @s cupr.copper_equ matches 8.. run scoreboard players remove @s
 execute if score @s cupr.copper_equ matches 4.. run item modify entity @s armor.legs cuprum:copper/charge/charge_armor
 execute if score @s cupr.copper_equ matches 4.. run scoreboard players remove @s cupr.copper_equ 4
 
-execute if score @s cupr.copper_equ matches 2.. run item modify entity @s weapon.mainhand cuprum:copper/charge/charge_tool
+execute if score @s cupr.copper_equ matches 2.. run function cuprum:util/check_tool_off
+execute if score @s cupr.copper_equ matches 2.. run item modify entity @s weapon.offhand cuprum:copper/charge/charge_tool
 execute if score @s cupr.copper_equ matches 2.. run scoreboard players remove @s cupr.copper_equ 2
+scoreboard players reset #TOOLTYPE cupr.val1
 
-execute if score @s cupr.copper_equ matches 1.. run item modify entity @s weapon.offhand cuprum:copper/charge/charge_tool
+execute if score @s cupr.copper_equ matches 1.. run function cuprum:util/check_tool_main
+execute if score @s cupr.copper_equ matches 1.. run item modify entity @s weapon.mainhand cuprum:copper/charge/charge_tool
 execute if score @s cupr.copper_equ matches 1.. run scoreboard players remove @s cupr.copper_equ 1
+scoreboard players reset #TOOLTYPE cupr.val1

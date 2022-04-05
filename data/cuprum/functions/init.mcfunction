@@ -1,9 +1,12 @@
 scoreboard objectives remove cupr.val1
 scoreboard objectives remove cupr.copper_equ
+scoreboard objectives remove cupr.const
 
 scoreboard objectives add cupr.val1 dummy
 scoreboard objectives add cupr.copper_equ dummy
 scoreboard objectives add cupr.const dummy
+
+data merge storage cupr:volatile {}
 
 scoreboard players set #COPPER_AXE_1_ASP cupr.const 100
 scoreboard players set #COPPER_AXE_2_ASP cupr.const 95

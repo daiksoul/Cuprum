@@ -22,7 +22,7 @@
 			{
 				"condition": "minecraft:match_tool",
 				"predicate": {
-				"nbt": "{Cupurum:{copper:2b,waxed:0b}}"
+				"nbt": "{cuprum:{copper:2b,waxed:0b}}"
 				}
 			}
 		]
@@ -50,7 +50,7 @@
 			{
 				"condition": "minecraft:match_tool",
 				"predicate": {
-				"nbt": "{Cupurum:{copper:3b,waxed:0b}}"
+				"nbt": "{cuprum:{copper:3b,waxed:0b}}"
 				}
 			}
 		]
@@ -78,7 +78,7 @@
 			{
 				"condition": "minecraft:match_tool",
 				"predicate": {
-				"nbt": "{Cupurum:{copper:4b,waxed:0b}}"
+				"nbt": "{cuprum:{copper:4b,waxed:0b}}"
 				}
 			}
 		]
