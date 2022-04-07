@@ -1,7 +1,7 @@
 {
 	"parent": "cuprum:recipes/root",
 	"rewards": {
-	  "function": "cuprum:recipe/rose_gold_hoe"
+	  "function": "cuprum:recipe/rose_gold"
 	},
 	"criteria": {
 	  "has_the_recipe": {

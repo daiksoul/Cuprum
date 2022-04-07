@@ -1,0 +1,5 @@
+execute as @e[advancements={cuprum:recipes/rose_gold_axe=true}] if data entity @s Inventory[{id:"minecraft:knowledge_book"}] at @s run function cuprum:recipe/rose_gold_axe
+execute as @e[advancements={cuprum:recipes/rose_gold_hoe=true}] if data entity @s Inventory[{id:"minecraft:knowledge_book"}] at @s run function cuprum:recipe/rose_gold_hoe
+execute as @e[advancements={cuprum:recipes/rose_gold_pickaxe=true}] if data entity @s Inventory[{id:"minecraft:knowledge_book"}] at @s run function cuprum:recipe/rose_gold_pickaxe
+execute as @e[advancements={cuprum:recipes/rose_gold_shovel=true}] if data entity @s Inventory[{id:"minecraft:knowledge_book"}] at @s run function cuprum:recipe/rose_gold_shovel
+execute as @e[advancements={cuprum:recipes/rose_gold_sword=true}] if data entity @s Inventory[{id:"minecraft:knowledge_book"}] at @s run function cuprum:recipe/rose_gold_sword

@@ -1,10 +1,12 @@
 scoreboard objectives remove cupr.val1
 scoreboard objectives remove cupr.copper_equ
 scoreboard objectives remove cupr.const
+scoreboard objectives remove cupr.thund_coold
 
 scoreboard objectives add cupr.val1 dummy
 scoreboard objectives add cupr.copper_equ dummy
 scoreboard objectives add cupr.const dummy
+scoreboard objectives add cupr.thund_coold dummy
 
 data merge storage cupr:volatile {}
 

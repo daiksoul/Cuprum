@@ -1,5 +1,6 @@
 {
 	"values": [
-	"dptools:init"
+	"dptools:init",
+	"cuprum:init"
 	]
 }

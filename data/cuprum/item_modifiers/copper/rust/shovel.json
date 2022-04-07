@@ -20,10 +20,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-				"nbt": "{cuprum:{copper:2b,waxed:0b}}"
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 1
 			}
 		]
 	},
@@ -48,10 +55,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-				"nbt": "{cuprum:{copper:3b,waxed:0b}}"
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 2
 			}
 		]
 	},
@@ -76,10 +90,17 @@
 		],
 		"conditions": [
 			{
-				"condition": "minecraft:match_tool",
-				"predicate": {
-				"nbt": "{cuprum:{copper:4b,waxed:0b}}"
-				}
+				"condition": "minecraft:value_check",
+				"value": {
+				  "type": "minecraft:score",
+				  "target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				  },
+				  "score": "cupr.val1",
+				  "scale": 1
+				},
+				"range": 3
 			}
 		]
 	}
