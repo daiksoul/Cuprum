@@ -34,3 +34,9 @@ scoreboard players set #COPPER_SWO_1_ASP cupr.const 180
 scoreboard players set #COPPER_SWO_2_ASP cupr.const 170
 scoreboard players set #COPPER_SWO_3_ASP cupr.const 155
 scoreboard players set #COPPER_SWO_4_ASP cupr.const 140
+
+scoreboard players set #COPPER_AXE_ATD cupr.const 850
+scoreboard players set #COPPER_HOE_ATD cupr.const 100
+scoreboard players set #COPPER_PIC_ATD cupr.const 350
+scoreboard players set #COPPER_SHO_ATD cupr.const 400
+scoreboard players set #COPPER_SWO_ATD cupr.const 550

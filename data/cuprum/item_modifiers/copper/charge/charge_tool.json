@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:29004,Cupurum:{copper:1b,waxed:0b}}"
+		"tag": "{CustomModelData:29004,Cupurum:{copper:1b,waxed:0b},AttributeModifiers:[]}"
 	},
 	{
 		"function": "set_attributes",
@@ -15,6 +15,21 @@
 					"target": {
 					  "type": "minecraft:fixed",
 					  "name": "#COPPER_AXE_1_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"name": "generic.attack_damage",
+				"operation": "addition",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_AXE_ATD"
 					},
 					"score": "cupr.const",
 					"scale": 0.01
@@ -55,6 +70,21 @@
 					"scale": 0.01
 				},
 				"slot": "mainhand"
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"name": "generic.attack_damage",
+				"operation": "addition",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_HOE_ATD"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"slot": "mainhand"
 			}
 		],
 		"conditions": [
@@ -85,6 +115,21 @@
 					"target": {
 					  "type": "minecraft:fixed",
 					  "name": "#COPPER_PIC_1_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"name": "generic.attack_damage",
+				"operation": "addition",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_PIC_ATD"
 					},
 					"score": "cupr.const",
 					"scale": 0.01
@@ -125,6 +170,21 @@
 					"scale": 0.01
 				},
 				"slot": "mainhand"
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"name": "generic.attack_damage",
+				"operation": "addition",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_SHO_ATD"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"slot": "mainhand"
 			}
 		],
 		"conditions": [
@@ -155,6 +215,21 @@
 					"target": {
 					  "type": "minecraft:fixed",
 					  "name": "#COPPER_SWO_1_ASP"
+					},
+					"score": "cupr.const",
+					"scale": 0.01
+				},
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "generic.attack_damage",
+				"name": "generic.attack_damage",
+				"operation": "addition",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "#COPPER_SWO_ATD"
 					},
 					"score": "cupr.const",
 					"scale": 0.01
