@@ -1,0 +1,54 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:leather_leggings",
+			"functions": [
+				{
+					"function": "set_count",
+					"count": 1
+				},
+				{
+					"function": "set_nbt",
+					"tag": "{display:{color:9521715},CustomModelData:29000,cuprum:{copper:1b,waxed:0b},cdur:{current_d:180,max_d:180,repair_item:{id:\"minecraft:copper_ingot\"}}}"
+				},
+				{
+					"function": "set_name",
+					"name": [
+					  {
+						"translate": "item.cuprum.copper_leggings",
+						"color": "white",
+						"italic": false
+					  }
+					]
+				},
+				{
+					"function": "set_lore",
+					"lore": [
+					  {
+						"text": " "
+					  }
+					]
+				},
+				{
+					"function": "minecraft:set_attributes",
+					"modifiers": [
+					  {
+						"attribute": "minecraft:generic.armor",
+						"name": "minecraft:generic.armor",
+						"amount": 4,
+						"operation": "addition",
+						"slot": "legs"
+					  }
+					]
+				}
+			]
+		  }
+		]
+	  }
+	]
+  }
+  

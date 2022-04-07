@@ -1,0 +1,15 @@
+{
+	"parent": "cuprum:recipes/root",
+	"rewards": {
+	  "function": "cuprum:recipe/copper_helmet",
+	  "loot": ["cuprum:item/copper_helmet"]
+	},
+	"criteria": {
+	  "has_the_recipe": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		  "recipe": "cuprum:copper_helmet"
+		}
+	  }
+	}
+  }
