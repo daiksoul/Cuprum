@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:12},CustomModelData:29004,Cupurum:{copper:1b,waxed:0b}}"
+		"tag": "{display:{color:9521716},CustomModelData:29004,cuprum:{copper:1b,waxed:0b,charged:1b}}"
 	},
 	{
 		"function": "minecraft:set_attributes",

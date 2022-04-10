@@ -14,7 +14,7 @@
 			  },
 			  {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:29002,cuprum:{copper:3b,waxed:0b},cdur:{current_d:200,max_d:200,repair_item:{id:\"minecraft:copper_ingot\"}}}"
+				"tag": "{CustomModelData:29002,cuprum:{copper:3b,waxed:0b,charged:0b},cdur:{current_d:200,max_d:200,repair_item:{id:\"minecraft:copper_ingot\"}}}"
 			  },
 			  {
 				"function": "set_name",

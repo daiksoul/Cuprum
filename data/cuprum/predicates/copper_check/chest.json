@@ -8,7 +8,7 @@
 		  "predicate": {
 			"equipment": {
 			  "chest": {
-				"nbt": "{cuprum:{copper:1b,waxed:0b}}"
+				"nbt": "{cuprum:{copper:1b,waxed:0b,charged:0b}}"
 			  }
 			}
 		  }
@@ -19,7 +19,7 @@
 			"predicate": {
 			  "equipment": {
 				"chest": {
-				  "nbt": "{cuprum:{copper:2b,waxed:0b}}"
+				  "nbt": "{cuprum:{copper:2b,waxed:0b,charged:0b}}"
 				}
 			  }
 			}
@@ -30,7 +30,7 @@
 			"predicate": {
 			  "equipment": {
 				"chest": {
-				  "nbt": "{cuprum:{copper:3b,waxed:0b}}"
+				  "nbt": "{cuprum:{copper:3b,waxed:0b,charged:0b}}"
 				}
 			  }
 			}
@@ -41,7 +41,7 @@
 			"predicate": {
 			  "equipment": {
 				"chest": {
-				  "nbt": "{cuprum:{copper:4b,waxed:0b}}"
+				  "nbt": "{cuprum:{copper:4b,waxed:0b,charged:0b}}"
 				}
 			  }
 			}

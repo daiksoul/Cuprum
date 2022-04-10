@@ -13,7 +13,7 @@
 				},
 				{
 					"function": "set_nbt",
-					"tag": "{display:{color:9521715},CustomModelData:29000,cuprum:{copper:1b,waxed:0b},cdur:{current_d:156,max_d:156,repair_item:{id:\"minecraft:copper_ingot\"}}}"
+					"tag": "{display:{color:9521715},CustomModelData:29000,cuprum:{copper:1b,waxed:0b,charged:0b},cdur:{current_d:156,max_d:156,repair_item:{id:\"minecraft:copper_ingot\"}}}"
 				},
 				{
 					"function": "set_name",
