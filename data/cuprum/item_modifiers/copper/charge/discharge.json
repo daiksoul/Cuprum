@@ -1,6 +1,6 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:29000}"
+		"tag": "{CustomModelData:29000,cuprum:{copper:1b,waxed:0b,charged:0b}}"
 	}
 ]
