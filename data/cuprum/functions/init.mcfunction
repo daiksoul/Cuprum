@@ -1,4 +1,5 @@
 scoreboard objectives remove cupr.val1
+scoreboard objectives remove cupr.val2
 scoreboard objectives remove cupr.copper_equ
 scoreboard objectives remove cupr.const
 scoreboard objectives remove cupr.thund_coold
@@ -10,6 +11,7 @@ scoreboard objectives remove cupr.use_swo
 scoreboard objectives remove cupr.hit
 
 scoreboard objectives add cupr.val1 dummy
+scoreboard objectives add cupr.val2 dummy
 scoreboard objectives add cupr.copper_equ dummy
 scoreboard objectives add cupr.const dummy
 scoreboard objectives add cupr.thund_coold dummy
@@ -52,3 +54,6 @@ scoreboard players set #COPPER_HOE_ATD cupr.const 100
 scoreboard players set #COPPER_PIC_ATD cupr.const 350
 scoreboard players set #COPPER_SHO_ATD cupr.const 400
 scoreboard players set #COPPER_SWO_ATD cupr.const 550
+
+scoreboard players set #LIGHTNING_FORKS cupr.const 3
+scoreboard players set #LIGHTNING_LEVELS cupr.const 10
