@@ -56,4 +56,6 @@ scoreboard players set #COPPER_SHO_ATD cupr.const 400
 scoreboard players set #COPPER_SWO_ATD cupr.const 550
 
 scoreboard players set #LIGHTNING_FORKS cupr.const 3
-scoreboard players set #LIGHTNING_LEVELS cupr.const 10
+scoreboard players set #LIGHTNING_FORKSBASE cupr.const 2
+scoreboard players set #LIGHTNING_LEVELS cupr.const 5
+scoreboard players set #LIGHTNING_LEVELSBASE cupr.const 5

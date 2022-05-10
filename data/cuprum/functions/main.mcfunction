@@ -2,5 +2,6 @@ execute as @e at @s if data entity @s Inventory[].tag.cuprum.copper run function
 
 function cuprum:copper/lightning_loop
 function cuprum:recipe/rose_gold
+function cuprum:lightning/main
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:knowledge_book"}}] run data modify entity @s PickupDelay set value 0
