@@ -1,0 +1,1 @@
+execute as @e[tag=cupr.bolt_effect,tag=cupr.marked] at @s run function cuprum:lightning/effect/sword_bolt

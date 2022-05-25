@@ -13,7 +13,7 @@ scoreboard players operation @e[tag=cupr.bolt_fork,sort=nearest,tag=!cupr.marked
 
 execute as @e[tag=cupr.bolt_fork,sort=nearest,tag=!cupr.marked] at @s run function cuprum:lightning/sword_loop
 
-tag @e[tag=cupr.marked] remove cupr.marked
+tag @e[tag=cupr.marked,tag=!cupr.bolt_effect] remove cupr.marked
 tag @e[tag=cupr.bolt_forked] remove cupr.bolt_forked
 tag @s remove cupr.using_bolt
 

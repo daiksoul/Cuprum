@@ -9,3 +9,5 @@ scoreboard players set @a[scores={cupr.use_hoe=1..}] cupr.use_hoe 0
 scoreboard players set @a[scores={cupr.use_pic=1..}] cupr.use_pic 0
 scoreboard players set @a[scores={cupr.use_sho=1..}] cupr.use_sho 0
 scoreboard players set @a[scores={cupr.use_swo=1..}] cupr.use_swo 0
+
+function cuprum:lightning/effect/effect_main
