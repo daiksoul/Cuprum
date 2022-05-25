@@ -1,7 +1,7 @@
 [
 	{
 	  "function": "minecraft:set_nbt",
-	  "tag": "{cuprum:{copper:2b,waxed:0b,charged:0b},CustomModelData:29001}",
+	  "tag": "{cuprum:{copper:2b},CustomModelData:29001}",
 	  "conditions": [
 		{
 			"condition": "minecraft:value_check",
@@ -20,7 +20,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{cuprum:{copper:3b,waxed:0b,charged:0b},CustomModelData:29002}",
+		"tag": "{cuprum:{copper:3b},CustomModelData:29002}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -39,7 +39,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{cuprum:{copper:4b,waxed:0b,charged:0b},CustomModelData:29003}",
+		"tag": "{cuprum:{copper:4b},CustomModelData:29003}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
