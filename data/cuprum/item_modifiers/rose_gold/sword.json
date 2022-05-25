@@ -2,7 +2,9 @@
 	{
 	  "function": "minecraft:set_name",
 	  "name": {
-		"translate": "item.cuprum.rose_gold_shovel"
+		"translate": "item.cuprum.rose_gold_shovel",
+		"color": "white",
+		"italic": false
 	  }
 	}
 ]

@@ -4,7 +4,7 @@ summon armor_stand ~ ~ ~ {Tags:["cuprum.rose_gold_pickaxe"],Invulnerable:1,Invis
 data modify entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] HandItems[0] set from entity @s Inventory[{id:"minecraft:knowledge_book"}]
 data modify entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] HandItems[0].id set value "minecraft:golden_pickaxe"
 item modify entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold
-item modify entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold/pickaxe
+execute unless data entity @e[tag=cuprm.rose_gold_axe,limit=1,sort=nearest] HandItems[0].tag.display.Name run item modify entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold/pickaxe
 
 summon item ~ ~ ~ {PickupDelay:0,Item:{id:"stone",Count:1b},Tags:["cuprum.rose_gold_pickaxe_item"]}
 data modify entity @e[tag=cuprum.rose_gold_pickaxe_item,limit=1,sort=nearest] Item set from entity @e[tag=cuprum.rose_gold_pickaxe,limit=1,sort=nearest] HandItems[0]

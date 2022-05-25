@@ -2,7 +2,9 @@
 	{
 	  "function": "minecraft:set_name",
 	  "name": {
-		"translate": "item.cuprum.rose_gold_hoe"
+		"translate": "item.cuprum.rose_gold_hoe",
+		"color": "white",
+		"italic": false
 	  }
 	}
 ]

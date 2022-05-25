@@ -4,7 +4,7 @@ summon armor_stand ~ ~ ~ {Tags:["cuprum.rose_gold_axe"],Invulnerable:1,Invisible
 data modify entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] HandItems[0] set from entity @s Inventory[{id:"minecraft:knowledge_book"}]
 data modify entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] HandItems[0].id set value "minecraft:golden_axe"
 item modify entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold
-item modify entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold/axe
+execute unless data entity @e[tag=cuprm.rose_gold_axe,limit=1,sort=nearest] HandItems[0].tag.display.Name run item modify entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] weapon.mainhand cuprum:rose_gold/axe
 
 summon item ~ ~ ~ {PickupDelay:0,Item:{id:"stone",Count:1b},Tags:["cuprum.rose_gold_axe_item"]}
 data modify entity @e[tag=cuprum.rose_gold_axe_item,limit=1,sort=nearest] Item set from entity @e[tag=cuprum.rose_gold_axe,limit=1,sort=nearest] HandItems[0]

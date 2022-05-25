@@ -1,5 +1,7 @@
 execute as @e at @s if data entity @s Inventory[].tag.cuprum.copper run function cuprum:copper/test_copper
 
+execute store result score #CUPR_TIME cupr.const run time query gametime
+
 function cuprum:copper/lightning_loop
 function cuprum:recipe/rose_gold
 function cuprum:lightning/main

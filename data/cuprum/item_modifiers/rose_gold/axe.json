@@ -2,7 +2,9 @@
 	{
 	  "function": "minecraft:set_name",
 	  "name": {
-		"translate": "item.cuprum.rose_gold_axe"
+		"translate": "item.cuprum.rose_gold_axe",
+		"color": "white",
+		"italic": false
 	  }
 	}
 ]

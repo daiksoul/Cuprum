@@ -2,7 +2,9 @@
 	{
 	  "function": "minecraft:set_name",
 	  "name": {
-		"translate": "item.cuprum.rose_gold_pickaxe"
+		"translate": "item.cuprum.rose_gold_pickaxe",
+		"color": "white",
+		"italic": false
 	  }
 	}
 ]
