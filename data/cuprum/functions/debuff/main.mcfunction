@@ -1,0 +1,1 @@
+execute as @e[scores={cupr.elect_timer=1..}] at @s run function cuprum:debuff/electric_tick
