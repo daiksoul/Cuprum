@@ -4,6 +4,7 @@ scoreboard objectives remove cupr.copper_equ
 scoreboard objectives remove cupr.const
 scoreboard objectives remove cupr.thund_coold
 scoreboard objectives remove cupr.bleed_timer
+scoreboard objectives remove cupr.elect_timer
 scoreboard objectives remove cupr.use_axe
 scoreboard objectives remove cupr.use_hoe
 scoreboard objectives remove cupr.use_pic
@@ -18,6 +19,7 @@ scoreboard objectives add cupr.copper_equ dummy
 scoreboard objectives add cupr.const dummy
 scoreboard objectives add cupr.thund_coold dummy
 scoreboard objectives add cupr.bleed_timer dummy
+scoreboard objectives add cupr.elect_timer dummy
 scoreboard objectives add cupr.use_axe minecraft.used:iron_axe
 scoreboard objectives add cupr.use_hoe minecraft.used:iron_hoe
 scoreboard objectives add cupr.use_pic minecraft.used:iron_pickaxe
@@ -64,3 +66,6 @@ scoreboard players set #LIGHTNING_FORKS cupr.const 3
 scoreboard players set #LIGHTNING_FORKSBASE cupr.const 2
 scoreboard players set #LIGHTNING_LEVELS cupr.const 5
 scoreboard players set #LIGHTNING_LEVELSBASE cupr.const 5
+
+scoreboard players set #LIGHTNING_OFFSET cupr.const 2000
+scoreboard players set #LIGHTNING_OFFMDL cupr.const 1000
