@@ -3,26 +3,31 @@ scoreboard objectives remove cupr.val2
 scoreboard objectives remove cupr.copper_equ
 scoreboard objectives remove cupr.const
 scoreboard objectives remove cupr.thund_coold
+scoreboard objectives remove cupr.bleed_timer
 scoreboard objectives remove cupr.use_axe
 scoreboard objectives remove cupr.use_hoe
 scoreboard objectives remove cupr.use_pic
 scoreboard objectives remove cupr.use_sho
 scoreboard objectives remove cupr.use_swo
 scoreboard objectives remove cupr.hit
+scoreboard objectives remove cupr.del
 
 scoreboard objectives add cupr.val1 dummy
 scoreboard objectives add cupr.val2 dummy
 scoreboard objectives add cupr.copper_equ dummy
 scoreboard objectives add cupr.const dummy
 scoreboard objectives add cupr.thund_coold dummy
+scoreboard objectives add cupr.bleed_timer dummy
 scoreboard objectives add cupr.use_axe minecraft.used:iron_axe
 scoreboard objectives add cupr.use_hoe minecraft.used:iron_hoe
 scoreboard objectives add cupr.use_pic minecraft.used:iron_pickaxe
 scoreboard objectives add cupr.use_sho minecraft.used:iron_shovel
 scoreboard objectives add cupr.use_swo minecraft.used:iron_sword
 scoreboard objectives add cupr.hit minecraft.custom:damage_taken
+scoreboard objectives add cupr.del minecraft.custom:damage_dealt
 
 data merge storage cupr:volatile {}
+data merge storage cupr:global {}
 
 scoreboard players set #COPPER_AXE_1_ASP cupr.const 100
 scoreboard players set #COPPER_AXE_2_ASP cupr.const 95
