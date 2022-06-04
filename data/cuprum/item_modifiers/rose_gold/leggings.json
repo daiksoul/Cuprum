@@ -1,0 +1,14 @@
+[
+	{
+	  "function": "minecraft:set_name",
+	  "name": {
+		"translate": "item.cuprum.rose_gold_leggings",
+		"color": "white",
+		"italic": false
+	  }
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{cdur:{current_d:165,max_d:165}}"
+	}
+]

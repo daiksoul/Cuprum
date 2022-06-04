@@ -1,0 +1,14 @@
+[
+	{
+	  "function": "minecraft:set_name",
+	  "name": {
+		"translate": "item.cuprum.rose_gold_chestplate",
+		"color": "white",
+		"italic": false
+	  }
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{cdur:{current_d:143,max_d:143}}"
+	}
+]
