@@ -1,0 +1,1 @@
+scoreboard players set @s cupr.bleed_timer 200

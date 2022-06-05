@@ -6,5 +6,6 @@ execute store result storage cupr:global TimeStamp long 1 run time query gametim
 function cuprum:copper/lightning_loop
 function cuprum:recipe/rose_gold
 function cuprum:lightning/main
+function cuprum:debuff/main
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:knowledge_book"}}] run data modify entity @s PickupDelay set value 0
