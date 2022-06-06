@@ -69,8 +69,19 @@ scoreboard players set #LIGHTNING_LEVELSBASE cupr.const 5
 
 scoreboard players set #LIGHTNING_OFFSET cupr.const 1500
 scoreboard players set #LIGHTNING_OFFMDL cupr.const 750
+scoreboard players set #LIGHTNING_OFFSET1 cupr.const 2000
+scoreboard players set #LIGHTNING_OFFMDL1 cupr.const 1000
+scoreboard players set #LIGHTNING_OFFSET2 cupr.const 750
+scoreboard players set #LIGHTNING_OFFMDL2 cupr.const 375
 scoreboard players set #ELECTRIC_OFFSET cupr.const 750
 scoreboard players set #ELECTRIC_OFFMDL cupr.const 375
 
 scoreboard players set #BLEED_DELAY cupr.const 20
 scoreboard players set #ELECT_DELAY cupr.const 4
+
+scoreboard players set #RUST_RNG_CEIL cupr.const 10000
+scoreboard players set #RUST_TIME_COEF cupr.const 2
+scoreboard players set #RUST_DAMG_COEF cupr.const 1
+scoreboard players set #RUST_LEVL_COEF cupr.const 2
+
+scoreboard players set #MATH_(-1) cupr.const -1

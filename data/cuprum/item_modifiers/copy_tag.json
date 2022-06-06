@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+	  "type": "minecraft:storage",
+	  "source": "cupr:volatile"
+	},
+	"ops": [
+	  {
+		"source": "CopyItem.tag",
+		"target": "{}",
+		"op": "replace"
+	  }
+	]
+}  

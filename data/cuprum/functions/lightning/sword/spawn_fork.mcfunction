@@ -5,22 +5,15 @@ function cuprum:util/compare_nbt
 
 #success
 execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet positioned ^ ^ ^5 run playsound entity.lightning_bolt.thunder weather @a[distance=..20] ~ ~ ~ 4 1.5
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork"]}
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork"]}
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork"]}
+execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.n1"]}
+execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.n2"]}
+execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.n3"]}
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=!cupr.marked] run data modify entity @s data.ParentId set from entity @s UUID
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=!cupr.marked] run data modify entity @s Rotation set from entity @s Rotation
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=!cupr.marked] at @s run function cuprum:lightning/sword/offset_fork
 execute if data storage cupr:volatile {Different:0} run scoreboard players add @s cupr.val1 1
 execute if data storage cupr:volatile {Different:0} run scoreboard players operation @e[tag=cupr.bolt_fork,tag=!cupr.marked] cupr.val1 = @s cupr.val1
-execute if data storage cupr:volatile {Different:0} run scoreboard players set @e[tag=cupr.bolt_fork,tag=!cupr.marked,limit=1] cupr.const 1
-execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=!cupr.marked,scores={cupr.const=1}] add cupr.marked
-execute if data storage cupr:volatile {Different:0} run scoreboard players set @e[tag=cupr.bolt_fork,tag=!cupr.marked,limit=1] cupr.const 2
-execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=!cupr.marked,limit=1,scores={cupr.const=2}] add cupr.marked
-execute if data storage cupr:volatile {Different:0} run scoreboard players set @e[tag=cupr.bolt_fork,tag=!cupr.marked,limit=1] cupr.const 3
-execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=!cupr.marked,limit=1,scores={cupr.const=3}] add cupr.marked
-execute if data storage cupr:volatile {Different:0} run scoreboard players set @e[tag=cupr.bolt_guide,scores={cupr.val2=1..}] cupr.val2 0
-
+execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=!cupr.marked] add cupr.marked
 #fail
 execute if data storage cupr:volatile {Different:1} run scoreboard players set @e[tag=cupr.bolt_guide,scores={cupr.val2=1}] cupr.val2 2
 execute if data storage cupr:volatile {Different:1} unless entity @e[tag=cupr.bolt_guide,scores={cupr.val2=0},distance=..7] run scoreboard players set @e[tag=cupr.bolt_guide,scores={cupr.val2=1..}] cupr.val2 0

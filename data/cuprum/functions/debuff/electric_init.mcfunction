@@ -8,6 +8,6 @@ execute unless score @s cupr.elect_timer matches 1.. as @e[tag=cupr.electric_eff
 execute unless score @s cupr.elect_timer matches 1.. run tag @e[tag=cupr.electric_effect,tag=!cupr.marked] add cupr.marked
 execute unless score @s cupr.elect_timer matches 1.. run tp @e[tag=cupr.electric_marker,sort=nearest,limit=1] @s
 execute unless score @s cupr.elect_timer matches 1.. run effect give @s wither 1 1 false
-scoreboard players set @s cupr.elect_timer 50
-scoreboard players set @e[tag=cupr.electric_marker,tag=!cupr.marked] cupr.elect_timer 50
+scoreboard players set @s cupr.elect_timer 100
+scoreboard players set @e[tag=cupr.electric_marker,tag=!cupr.marked] cupr.elect_timer 100
 tag @e[tag=cupr.electric_marker,tag=!cupr.marked] add cupr.marked
