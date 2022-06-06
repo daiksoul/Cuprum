@@ -9,7 +9,7 @@
 		{
 		  "source": "TimeStamp",
 		  "target": "cuprum.last_use",
-		  "op": "merge"
+		  "op": "replace"
 		}
 	  ]
 	}
