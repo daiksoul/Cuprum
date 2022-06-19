@@ -11,8 +11,6 @@ execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bo
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run data modify entity @s data.ParentId set from entity @s UUID
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run data modify entity @s Rotation set from entity @s Rotation
 execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] at @s run function cuprum:lightning/sword/offset_fork
-execute if data storage cupr:volatile {Different:0} run scoreboard players add @s cupr.val1 1
-execute if data storage cupr:volatile {Different:0} run scoreboard players operation @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] cupr.val1 = @s cupr.val1
 execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] add cupr.marked
 #fail
 execute if data storage cupr:volatile {Different:1} run scoreboard players set @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,scores={cupr.val2=1}] cupr.val2 2

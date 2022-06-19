@@ -1,52 +1,7 @@
-tp @s[scores={cupr.val1=1},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=2},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=1},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=2},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=1},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=2},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=2},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=3},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=2},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=3},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=2},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=3},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=3},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=4},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=3},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=4},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=3},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=4},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=4},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=5},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=4},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=5},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=4},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=5},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=5},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=6},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=5},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=6},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=5},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=6},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=6},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=7},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=6},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=7},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=6},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=7},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=7},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=8},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=7},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=8},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=7},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=8},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=8},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=9},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=8},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=9},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=8},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=9},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=9},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=10},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=9},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=10},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=9},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=10},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=10},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=11},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=10},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=11},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=10},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=11},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=11},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=12},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=11},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=12},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=11},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=12},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=12},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=13},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=12},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=13},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=12},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=13},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=13},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=13},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=13},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=14},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=14},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=14},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=15},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=15},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=15},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=14},tag=cupr.n3] feet
-tp @s[scores={cupr.val1=16},tag=cupr.n1] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n1] feet
-tp @s[scores={cupr.val1=16},tag=cupr.n2] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n2] feet
-tp @s[scores={cupr.val1=16},tag=cupr.n3] ~ ~ ~ facing entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,sort=nearest,limit=1,scores={cupr.val1=15},tag=cupr.n3] feet
 scoreboard players set @s cupr.val2 0
 scoreboard players add @s cupr.thund_coold 1
+tp @s[tag=cupr.n1,scores={cupr.thund_coold=1}] ~ ~ ~ facing entity @e[tag=cupr.n1,tag=cupr.bolt_sword,scores={cupr.thund_coold=2},sort=nearest,limit=1]
+tp @s[tag=cupr.n2,scores={cupr.thund_coold=1}] ~ ~ ~ facing entity @e[tag=cupr.n2,tag=cupr.bolt_sword,scores={cupr.thund_coold=2},sort=nearest,limit=1]
+tp @s[tag=cupr.n3,scores={cupr.thund_coold=1}] ~ ~ ~ facing entity @e[tag=cupr.n3,tag=cupr.bolt_sword,scores={cupr.thund_coold=2},sort=nearest,limit=1]
 kill @s[scores={cupr.thund_coold=30..}]
 execute if score @s cupr.thund_coold matches 5.. run function cuprum:lightning/sword/fork_loop
