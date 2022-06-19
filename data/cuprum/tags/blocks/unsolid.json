@@ -1,0 +1,87 @@
+{
+	"values": [
+		"air",
+
+		"#saplings",
+		"cobweb",
+		"#crops",
+		"#underwater_bonemeals",
+		"sugar_cane",
+		
+		"#flowers",
+		"tall_grass",
+		"grass",
+		"fern",
+		"large_fern",
+		"nether_portal",
+		"end_portal",
+		
+		"brown_mushroom",
+		"red_mushroom",
+		
+		"warped_fungus",
+		"crimson_fungus",
+		"crimson_roots",
+		"warped_roots",
+		"nether_sprouts",
+
+		"vine",
+		"hanging_roots",
+		
+		"dead_bush",
+
+		"sea_pickle",
+
+		"dead_brain_coral",
+		"dead_brain_coral_fan",
+		"dead_brain_coral_wall_fan",
+		
+		"dead_bubble_coral",
+		"dead_bubble_coral_fan",
+		"dead_bubble_coral_wall_fan",
+		
+		"dead_fire_coral",
+		"dead_fire_coral_fan",
+		"dead_fire_coral_wall_fan",
+		
+		"dead_tube_coral",
+		"dead_tube_coral_fan",
+		"dead_tube_coral_wall_fan",
+
+		"dead_horn_coral",
+		"dead_horn_coral_fan",
+		"dead_horn_coral_wall_fan",
+
+		"water",
+
+		"torch",
+		"wall_torch",
+		"soul_torch",
+		"soul_wall_torch",
+
+		"#signs",
+		"#wall_signs",
+
+		"redstone_wire",
+		"redstone_torch",
+		"repeater",
+		"comparator",
+		"lever",
+		"tripwire_hook",
+		"#buttons",
+		"#pressure_plates",
+		"#doors",
+		"#trapdoors",
+		
+		"#rails",
+		"glow_lichen",
+		"tripwire",
+
+		"#candles",
+		
+		"small_amethyst_bud",
+		"medium_amethyst_bud",
+		"large_amethyst_bud",
+		"pointed_dripstone"
+	]
+}
