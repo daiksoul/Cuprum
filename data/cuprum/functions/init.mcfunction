@@ -85,3 +85,5 @@ scoreboard players set #RUST_DAMG_COEF cupr.const 1
 scoreboard players set #RUST_LEVL_COEF cupr.const 2
 
 scoreboard players set #MATH_(-1) cupr.const -1
+
+kill @e[tag=cupr.bolt_fork]
