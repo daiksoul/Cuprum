@@ -1,6 +1,7 @@
 scoreboard objectives remove cupr.val1
 scoreboard objectives remove cupr.val2
 scoreboard objectives remove cupr.copper_equ
+scoreboard objectives remove cupr.copper_cnt
 scoreboard objectives remove cupr.const
 scoreboard objectives remove cupr.thund_coold
 scoreboard objectives remove cupr.bleed_timer
@@ -16,6 +17,7 @@ scoreboard objectives remove cupr.del
 scoreboard objectives add cupr.val1 dummy
 scoreboard objectives add cupr.val2 dummy
 scoreboard objectives add cupr.copper_equ dummy
+scoreboard objectives add cupr.copper_cnt dummy
 scoreboard objectives add cupr.const dummy
 scoreboard objectives add cupr.thund_coold dummy
 scoreboard objectives add cupr.bleed_timer dummy
@@ -80,9 +82,10 @@ scoreboard players set #BLEED_DELAY cupr.const 20
 scoreboard players set #ELECT_DELAY cupr.const 4
 
 scoreboard players set #RUST_RNG_CEIL cupr.const 10000
-scoreboard players set #RUST_TIME_COEF cupr.const 2
+scoreboard players set #RUST_TIME_COEF cupr.const 4
 scoreboard players set #RUST_DAMG_COEF cupr.const 1
 scoreboard players set #RUST_LEVL_COEF cupr.const 2
+scoreboard players set #DECAY_VAL cupr.const 2
 
 scoreboard players set #MATH_(-1) cupr.const -1
 
