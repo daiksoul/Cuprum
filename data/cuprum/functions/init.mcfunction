@@ -12,8 +12,20 @@ scoreboard objectives remove cupr.use_pic
 scoreboard objectives remove cupr.use_sho
 scoreboard objectives remove cupr.use_swo
 scoreboard objectives remove cupr.hit
+scoreboard objectives remove cupr.hit_cal1
+scoreboard objectives remove cupr.hit_cal2
+scoreboard objectives remove cupr.hit_cal3
 scoreboard objectives remove cupr.del
+scoreboard objectives remove cupr.uuid0
+scoreboard objectives remove cupr.uuid1
+scoreboard objectives remove cupr.uuid2
+scoreboard objectives remove cupr.uuid3
+scoreboard objectives remove cupr.jointime
 
+scoreboard objectives add cupr.uuid0 dummy
+scoreboard objectives add cupr.uuid1 dummy
+scoreboard objectives add cupr.uuid2 dummy
+scoreboard objectives add cupr.uuid3 dummy
 scoreboard objectives add cupr.val1 dummy
 scoreboard objectives add cupr.val2 dummy
 scoreboard objectives add cupr.copper_equ dummy
@@ -27,8 +39,12 @@ scoreboard objectives add cupr.use_hoe minecraft.used:iron_hoe
 scoreboard objectives add cupr.use_pic minecraft.used:iron_pickaxe
 scoreboard objectives add cupr.use_sho minecraft.used:iron_shovel
 scoreboard objectives add cupr.use_swo minecraft.used:iron_sword
-scoreboard objectives add cupr.hit minecraft.custom:damage_taken
+scoreboard objectives add cupr.hit dummy
+scoreboard objectives add cupr.hit_cal1 minecraft.custom:damage_taken
+scoreboard objectives add cupr.hit_cal2 minecraft.custom:damage_absorbed
+scoreboard objectives add cupr.hit_cal3 minecraft.custom:damage_resisted
 scoreboard objectives add cupr.del minecraft.custom:damage_dealt
+scoreboard objectives add cupr.jointime minecraft.custom:play_time
 
 data merge storage cupr:volatile {}
 data merge storage cupr:global {}

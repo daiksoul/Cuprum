@@ -1,20 +1,17 @@
-scoreboard players add @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,distance=..20,limit=1,scores={cupr.val2=0}] cupr.val2 1
-data modify storage cupr:volatile Target set from entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,limit=1,scores={cupr.val2=1}] data.ParentId
-data modify storage cupr:volatile Source set from entity @s UUID
-function cuprum:util/compare_nbt
+#playsound
+execute as @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,distance=..20] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 facing entity @s feet positioned ^ ^ ^5 run playsound entity.lightning_bolt.thunder weather @a[distance=..20] ~ ~ ~ 4 1.5
 
-#success
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,limit=1,scores={cupr.val2=1}] feet positioned ^ ^ ^5 run playsound entity.lightning_bolt.thunder weather @a[distance=..20] ~ ~ ~ 4 1.5
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n1"]}
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n2"]}
-execute if data storage cupr:volatile {Different:0} facing entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,limit=1,scores={cupr.val2=1}] feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n3"]}
-execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run data modify entity @s data.ParentId set from entity @s UUID
-execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run data modify entity @s Rotation set from entity @s Rotation
-execute if data storage cupr:volatile {Different:0} as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] at @s run function cuprum:lightning/sword/offset_fork
-execute if data storage cupr:volatile {Different:0} run tag @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] add cupr.marked
-#fail
-execute if data storage cupr:volatile {Different:1} run scoreboard players set @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,scores={cupr.val2=1}] cupr.val2 2
-execute if data storage cupr:volatile {Different:1} unless entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,scores={cupr.val2=0},distance=..7] run scoreboard players set @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,scores={cupr.val2=1..}] cupr.val2 0
-execute if data storage cupr:volatile {Different:1} if entity @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,scores={cupr.val2=0},distance=..7] run function cuprum:lightning/sword/spawn_fork
+#summon
+execute as @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,distance=..20] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 facing entity @s feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n1"]}
+execute as @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,distance=..20] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 facing entity @s feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n2"]}
+execute as @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,distance=..20] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 facing entity @s feet run summon marker ^ ^ ^5 {Tags:["cupr.bolt_fork","cupr.bolt_sword","cupr.n3"]}
+#uuids
+execute at @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run scoreboard players operation @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 = @s cupr.uuid0
+execute at @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run scoreboard players operation @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 = @s cupr.uuid1
+execute at @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run scoreboard players operation @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 = @s cupr.uuid2
+execute at @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run scoreboard players operation @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 = @s cupr.uuid3
 
-data remove storage cupr:volatile Different
+#rotation & offset
+execute at @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] run data modify entity @e[limit=1,sort=nearest,distance=..0.01] Rotation set from entity @s Rotation
+execute as @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] at @s run function cuprum:lightning/sword/offset_fork
+tag @e[tag=cupr.bolt_fork,tag=cupr.bolt_sword,tag=!cupr.marked] add cupr.marked

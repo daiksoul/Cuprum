@@ -1,5 +1,6 @@
-particle soul_fire_flame ^ ^ ^ 0 0 0 0 1 normal
-scoreboard players add @s cupr.val2 1
-execute if score @s cupr.thund_coold matches ..15 as @e[type=!#cuprum:immune_ligtning,dx=0] at @s run function cuprum:debuff/electric_init
-execute if score @s cupr.val2 matches ..25 positioned ^ ^ ^0.1 if entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_armor,distance=..0.1] if score @e[tag=cupr.bolt_armor,tag=cupr.bolt_sword,distance=..0.1,sort=nearest,limit=1] cupr.val1 = @s cupr.val1 run function cuprum:lightning/sword/fork_loop
-execute if score @s cupr.val2 matches ..25 positioned ^ ^ ^0.1 unless entity @e[tag=cupr.bolt_fork,tag=cupr.bolt_armor,distance=..0.1] run function cuprum:lightning/sword/fork_loop
+scoreboard players add @s cupr.thund_coold 1
+execute as @e[tag=cupr.bolt_armor,tag=cupr.bolt_axis] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 run tp @e[limit=1,sort=nearest,distance=..0.01] ^0.5 ^ ^-0.5 facing entity @s feet
+# execute as @e[tag=cupr.bolt_armor,tag=cupr.bolt_axis] if score @s cupr.uuid0 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid0 if score @s cupr.uuid1 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid1 if score @s cupr.uuid2 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid2 if score @s cupr.uuid3 = @e[limit=1,sort=nearest,distance=..0.01] cupr.uuid3 run tp @e[limit=1,sort=nearest,distance=..0.01,scores={cupr.thund_coold=5..}] ^0.5 ^ ^0.5 facing entity @s feet
+particle soul_fire_flame ~ ~ ~ 0 0 0 0 1 normal
+execute as @e[type=!#cuprum:immune_ligtning,dy=0] at @s run function cuprum:debuff/electric_init 
+kill @s[scores={cupr.thund_coold=11..}]
