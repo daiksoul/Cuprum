@@ -1,0 +1,84 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": -0.005,
+				"operation": "addition",
+				"slot": "head"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				},
+				"score": "cupr.val1",
+				"scale": 1
+				},
+				"range": 1
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": -0.001,
+				"operation": "addition",
+				"slot": "head"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				},
+				"score": "cupr.val1",
+				"scale": 1
+				},
+				"range": 2
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"name": "minecraft:generic.movement_speed",
+				"amount": -0.015,
+				"operation": "addition",
+				"slot": "head"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#RUSTLVL"
+				},
+				"score": "cupr.val1",
+				"scale": 1
+				},
+				"range": 3
+			}
+		]
+	}
+]
+	
