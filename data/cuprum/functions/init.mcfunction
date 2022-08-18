@@ -57,7 +57,7 @@ scoreboard objectives add cupr.maih_stat dummy
 scoreboard objectives add cupr.offh_stat dummy
 
 data merge storage cupr:volatile {}
-data merge storage cupr:global {}
+data merge storage cupr:global {empty:{}}
 
 scoreboard players set @a cupr.head_stat -1
 scoreboard players set @a cupr.chst_stat -1

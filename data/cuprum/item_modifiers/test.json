@@ -7,7 +7,6 @@
 		  "name": "minecraft:generic.luck",
 		  "amount": 1,
 		  "operation": "addition",
-		  "id": "8e7259f7-1fc0-4560-915d-8b803675df1a",
 		  "slot": "mainhand"
 		}
 	  ]
