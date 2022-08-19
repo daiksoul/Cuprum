@@ -39,7 +39,7 @@
 				"name": "minecraft:generic.movement_speed",
 				"amount": -0.005,
 				"operation": "addition",
-				"slot": "head"
+				"slot": "legs"
 			}
 		],
 		"conditions": [
@@ -66,7 +66,7 @@
 				"name": "minecraft:generic.movement_speed",
 				"amount": -0.001,
 				"operation": "addition",
-				"slot": "head"
+				"slot": "legs"
 			}
 		],
 		"conditions": [
@@ -93,7 +93,7 @@
 				"name": "minecraft:generic.movement_speed",
 				"amount": -0.015,
 				"operation": "addition",
-				"slot": "head"
+				"slot": "legs"
 			}
 		],
 		"conditions": [
