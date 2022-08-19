@@ -115,11 +115,12 @@ scoreboard players set #BLEED_DELAY cupr.const 20
 scoreboard players set #ELECT_DELAY cupr.const 4
 
 scoreboard players set #RUST_RNG_CEIL cupr.const 10000
-scoreboard players set #RUST_TIME_COEF cupr.const 4
+scoreboard players set #RUST_TIME_COEF cupr.const 2
 scoreboard players set #RUST_DAMG_COEF cupr.const 1
 scoreboard players set #RUST_LEVL_COEF cupr.const 2
 scoreboard players set #DECAY_VAL cupr.const 2
 
 scoreboard players set #MATH_(-1) cupr.const -1
+scoreboard players set #MATH_(4) cupr.const 4
 
 kill @e[tag=cupr.bolt_fork]
