@@ -2,3 +2,4 @@ effect give @s[predicate=cuprum:copper_check/head,predicate=cuprum:copper_check/
 summon lightning_bolt ~ ~1 ~
 particle electric_spark ~ ~ ~ 0.2 1 0.2 0 10 normal
 function cuprum:copper/charge
+tag @s remove cupr.thunder.o
