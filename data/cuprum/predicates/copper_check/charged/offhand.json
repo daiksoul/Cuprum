@@ -8,44 +8,11 @@
 		  "predicate": {
 			"equipment": {
 			  "offhand": {
-				"nbt": "{cuprum:{copper:1b,waxed:0b,charged:0b}}"
+				"nbt": "{cuprum:{charged:1b}}"
 			  }
 			}
 		  }
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"offhand": {
-				  "nbt": "{cuprum:{copper:2b,waxed:0b,charged:0b}}"
-				}
-			  }
-			}
-		  },
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"offhand": {
-				  "nbt": "{cuprum:{copper:3b,waxed:0b,charged:0b}}"
-				}
-			  }
-			}
-		  },
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"offhand": {
-				  "nbt": "{cuprum:{copper:4b,waxed:0b,charged:0b}}"
-				}
-			  }
-			}
-		  }
+		}
 	  ]
 	}
   ]

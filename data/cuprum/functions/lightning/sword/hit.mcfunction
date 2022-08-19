@@ -24,4 +24,5 @@ scoreboard players set @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,tag=cupr.unmar
 
 tag @e[tag=cupr.bolt_guide,tag=cupr.bolt_sword,tag=cupr.unmarked] remove cupr.unmarked
 
-item modify entity @s weapon.mainhand cuprum:copper/charge/discharge
+execute if entity @s[predicate=cuprum:copper_check/charged/mainhand,nbt={SelectedItem:{id:"minecraft:iron_sword"}}] run item modify entity @s weapon.mainhand cuprum:copper/charge/discharge
+execute if entity @s[predicate=cuprum:copper_check/charged/offhand,nbt={Inventory:[{id:"minecraft:iron_sword",Slot:-106b}]}] run item modify entity @s weapon.offhand cuprum:copper/charge/discharge

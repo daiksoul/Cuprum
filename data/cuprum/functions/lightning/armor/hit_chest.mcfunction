@@ -6,7 +6,4 @@ execute store result score @e[tag=cupr.bolt_axis,tag=cupr.bolt_armor,tag=!cupr.m
 execute as @e[tag=cupr.bolt_axis,tag=cupr.bolt_armor,tag=!cupr.marked] at @s run function cuprum:lightning/armor/loop_axis
 tag @e[tag=cupr.bolt_axis,tag=cupr.bolt_armor,tag=!cupr.marked,sort=nearest,limit=1] add cupr.marked
 
-execute if data entity @s Inventory[{Slot:103b}].tag.cuprum{charged:1b} run item modify entity @s armor.head cuprum:copper/charge/discharge_armor
 execute if data entity @s Inventory[{Slot:102b}].tag.cuprum{charged:1b} run item modify entity @s armor.chest cuprum:copper/charge/discharge_armor
-execute if data entity @s Inventory[{Slot:101b}].tag.cuprum{charged:1b} run item modify entity @s armor.legs cuprum:copper/charge/discharge_armor
-execute if data entity @s Inventory[{Slot:100b}].tag.cuprum{charged:1b} run item modify entity @s armor.feet cuprum:copper/charge/discharge_armor

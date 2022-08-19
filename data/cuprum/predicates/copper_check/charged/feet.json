@@ -8,7 +8,7 @@
 		  "predicate": {
 			"equipment": {
 			  "feet": {
-				"nbt": "{cuprum:{copper:1b,charged:1b}}"
+				"nbt": "{cuprum:{charged:1b}}"
 			  }
 			}
 		  }
