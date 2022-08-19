@@ -20,12 +20,6 @@ scoreboard objectives remove cupr.uuid1
 scoreboard objectives remove cupr.uuid2
 scoreboard objectives remove cupr.uuid3
 scoreboard objectives remove cupr.jointime
-scoreboard objectives remove cupr.head_stat
-scoreboard objectives remove cupr.chst_stat
-scoreboard objectives remove cupr.legs_stat
-scoreboard objectives remove cupr.feet_stat
-scoreboard objectives remove cupr.maih_stat
-scoreboard objectives remove cupr.offh_stat
 
 scoreboard objectives add cupr.uuid0 dummy
 scoreboard objectives add cupr.uuid1 dummy
@@ -49,22 +43,9 @@ scoreboard objectives add cupr.hit_cal2 minecraft.custom:damage_absorbed
 scoreboard objectives add cupr.hit_cal3 minecraft.custom:damage_resisted
 scoreboard objectives add cupr.del minecraft.custom:damage_dealt
 scoreboard objectives add cupr.jointime minecraft.custom:play_time
-scoreboard objectives add cupr.head_stat dummy
-scoreboard objectives add cupr.chst_stat dummy
-scoreboard objectives add cupr.legs_stat dummy
-scoreboard objectives add cupr.feet_stat dummy
-scoreboard objectives add cupr.maih_stat dummy
-scoreboard objectives add cupr.offh_stat dummy
 
 data merge storage cupr:volatile {}
 data merge storage cupr:global {empty:{}}
-
-scoreboard players set @a cupr.head_stat -1
-scoreboard players set @a cupr.chst_stat -1
-scoreboard players set @a cupr.legs_stat -1
-scoreboard players set @a cupr.feet_stat -1
-scoreboard players set @a cupr.maih_stat -1
-scoreboard players set @a cupr.offh_stat -1
 
 scoreboard players set #COPPER_AXE_1_ASP cupr.const 100
 scoreboard players set #COPPER_AXE_2_ASP cupr.const 95
