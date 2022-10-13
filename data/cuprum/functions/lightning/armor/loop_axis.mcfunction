@@ -7,6 +7,6 @@ scoreboard players operation @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.
 scoreboard players operation @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] cupr.uuid2 = @s cupr.uuid2
 scoreboard players operation @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] cupr.uuid3 = @s cupr.uuid3
 scoreboard players set @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] cupr.thund_coold 0
-execute as @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] run function cuprum:util/offset/three
+# execute as @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] run function cuprum:util/offset/thr
 tag @e[tag=cupr.bolt_armor,tag=cupr.bolt_fork,tag=cupr.unmarked] remove cupr.unmarked
 execute if score @s cupr.val1 matches ..36 rotated ~10 ~ run function cuprum:lightning/armor/loop_axis
